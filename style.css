@@ -52,6 +52,7 @@ h1  {
     line-height: 26px;
 }
 
+
 .test1 {
 
 width: 296px;
@@ -81,7 +82,7 @@ footer {
 
 }
 
-#titre1 {
+.titre1 {
     font-weight: bold;
     font-size: larger;
 }
@@ -138,13 +139,28 @@ footer ul,
 
 .Titregras {
     font-family: 'Raleway';
-    font-size: 2em;
+    font-size: 30px;
     color: black;
     font-weight: bolder;
     padding-bottom: 2%;
     padding-top: 2%;
     margin-left: 2%;
 }
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+h4{
+    font-size: 30px;
+    padding-left: 2%;
+}
+
 
 .Titregras2 {
     font-family: 'Raleway';
@@ -295,9 +311,8 @@ nav a {
 
 }
 
-h2 {
-padding-left: 2%;
-margin-top: 5%;
+h3 {
+    padding-top: 2%;
 }
 
 .heb {
