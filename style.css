@@ -359,7 +359,7 @@ li {
 .etoiles {
     display: flex;
     margin-left: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .etoiles2 {
