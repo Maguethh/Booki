@@ -1,0 +1,1112 @@
+* { box-sizing: border-box;
+    font-family: 'Raleway';
+    color: #000000;
+ }
+
+ /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+    position: relative;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}   
+ 
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+h1  {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.test1 {
+
+width: 296px;
+height: 19px;
+left: 55px;
+top: 160px;
+
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+
+color: #000000;
+
+}
+
+footer {
+    width: 100%;
+    background-color: lightgrey;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+
+#titre1 {
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer ul,
+ footer ul li {
+    list-style-type: none;
+ }
+
+ .illu1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagebox1 {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+    max-height: 170px;
+    height: 80%;
+}
+
+.box1 {
+    width: 30%;
+    min-width: 250px;
+    background-color: white;
+    border: solid white;
+    margin-right: 2%;
+    border-radius: 30px;
+    padding: 2px;
+    box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.65);
+    margin: 10px;
+
+}
+
+.titrelens {
+    background-color: white;
+}
+
+
+
+.principal {
+    
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgb(238, 238, 238);
+    border: solid rgb(238, 238, 238);
+    border-radius: 30px;
+    padding: 30px;
+
+}
+
+.Titregras {
+    font-family: 'Raleway';
+    font-size: 2em;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+
+.Titregras2 {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 2%;
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.populaire {
+    display: flex;
+    width: 30%;
+    border: solid rgb(238, 238, 238);
+    border-radius: 30px;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+   
+}
+
+.illu3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagebox3 {
+    width: 40%;
+    height: 100%;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.box3 {
+    display: flex;
+    background-color: white;
+    border: solid white;
+    padding: 2px;
+    border-radius: 30px;
+    width: 95%;
+    height: 23%;
+    box-shadow: 5px 5px 15px -4px rgb(0 0 0 / 65%);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    
+}
+
+.box3column {
+    width: 60%;
+}
+
+
+.case {
+    margin-top: 2%;
+    display: flex;
+    gap: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    justify-content: space-between;
+}
+
+
+
+.textbox1{
+    font-family: 'Raleway';
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5%;
+
+}
+
+
+
+
+.textbox3{
+    font-family: 'Raleway';
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    width: 60%  ;
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+
+.activites {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 30px;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 10px 5px 5px #cfcbcb;
+}
+
+.imagebox4 {
+    width: 300px;
+    height: 460px;
+    border-radius: 30px 30px 0px 0px;
+    
+}
+
+.textbox4 {
+    font-family: 'Raleway';
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 5%;
+
+}
+
+.prix {
+    font-family: 'Raleway';
+    margin-top: 6px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+nav a:hover {
+    border-top: solid 5px;
+    color: rgb(52, 157, 255);
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+    font-family: 'Raleway';
+    font-size: 160%;
+
+}
+
+h2 {
+padding-left: 2%;
+margin-top: 5%;
+}
+
+.heb {
+    position: absolute;
+    right: 2%;
+    max-width: 1440px;
+}
+
+img {
+    object-fit: cover;
+}
+
+.tetepage {
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+.tetepage2 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+
+h1 {
+    padding-top: 2%;
+}
+
+.logobooki {
+    display: inline-block;
+    margin-left: 2%;
+    width: 10%;
+    height: 10%;
+    margin-top: 1%;
+    padding-bottom: 3%;
+}   
+
+footer {
+    font-family: 'Raleway';
+    padding: 2%;
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+li {
+    padding-bottom: 5%;
+}
+
+.barrerecherche {
+    display: flex;
+    margin-left: 2%;
+    height: 60px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.loupe{
+    display: none;
+}
+.etoiles {
+    display: flex;
+    margin-left: 5%;
+    padding-bottom: 5%;
+}
+
+
+.fa-duotone {
+    color: rgb(228, 228, 228);
+}
+
+.searchicon {
+    border: 2px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: rgb(238, 238, 238);
+    font-size: 22px;
+    padding: 20px;
+
+}
+
+.searchbutton {
+    padding: 1%;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #0077ff;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.searchtext {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.etoile-a {
+    color: rgb(0, 119, 255);
+}
+
+.etoile-b {
+    color: rgb(204, 204, 204);
+}
+
+.couleurfiltre {
+    color: rgb(0, 119, 255);
+    padding: 15px;
+}
+
+.filtre {
+    display: flex;
+    margin-left: 2%;
+    padding-top: 2%;
+    width: 70%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.filtremobile {
+    display: flex   ;
+    gap: 2%;
+}
+
+.casefiltre {
+    display: flex;
+    border: solid 1px;
+    border-radius: 100px;
+    padding-right: 20px;
+    color: rgb(196, 196, 196);
+
+}
+
+
+.titrefiltre {
+    font-family: 'Raleway';
+    font-weight: bold   ;
+    font-size: 30px;
+}
+
+.boutonfiltre {
+    font-family: 'Raleway';
+    padding: 15px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.casefiltre:hover {
+    background-color: rgb(164, 206, 255);
+}
+
+.boutonfiltre:hover {
+    background-color: rgb(164, 206, 255);
+}
+
+.titrepopulaire {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 15px;
+
+}
+
+.graf {
+    color: rgb(0, 119, 255);
+    font-size: 30px;
+    margin-top: 6%;
+}
+
+.titrepopu {
+    font-family: 'Raleway';
+    font-size: 28px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 6%;
+    
+}
+
+
+.box1:hover {
+    opacity: 0.8;
+}
+
+.box3:hover {
+    opacity: 0.8;
+}
+
+.box4:hover {
+    opacity: 0.8;
+}
+
+.info {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    width: 90%;
+    margin-left: 2%;
+}
+
+.ibleu {
+    color: rgb(0, 119, 255);
+    border: solid 1px rgb(126, 125, 125);
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.logoinfo {
+    display: flex;
+    align-items: flex-start;
+}
+
+.titreinfo {
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    padding-top: 6px;
+    padding-left: 7px;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+
+    .logobooki {
+        width: 10%;
+    }
+
+
+    .box4 {
+        width: 23%;
+    }
+
+    .imagebox4 {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    /*Tablets [769px -> 992px]*/
+    .principal {
+    width: 100%;
+    }
+
+    .heb {
+        right: 4%;
+    }
+
+    .tetepage2 {
+        font-size: 20px;
+    }
+
+    .barrerecherche {
+        width: 50%;
+    }
+
+    .searchbutton {
+        width: 22%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+
+    .searchtext {
+        width: 65%;
+    }
+
+
+    .searchicon {
+        font-size: 20px;
+        width: 12%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .searchtext {
+        font-size: 20px;
+    }
+
+
+    footer {
+        flex-direction: row;
+        width: 100%;
+        font-size:10px;
+    }
+
+    header .hautpage .logobooki{
+        width: 9%;
+        display: block ;
+
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+        position: relative;
+    }     
+
+    h1 {
+        padding-top: 60px;
+    }
+
+    .titreinfo {
+        font-size: 13px;
+    }
+
+    .ibleu {
+        font-size: 12px;
+        padding: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .Titregras {
+        font-size: 23px;
+        padding-bottom: 24px;
+    }
+
+
+    header nav {
+        font-size: 10px;
+    }
+
+    header nav a {
+        padding: 4px;
+    }
+
+    header nav a:hover {
+        border-top: none;
+    }
+
+    .barrerecherche {
+        height: 50px;
+    }
+
+    .searchtext {
+        font-size: 16px;
+    }
+
+    .searchbutton {
+        font-size: 13px;
+    }
+
+    .searchicon {
+        font-size: 15px;
+        padding: 16px;
+        font-size: 20px;
+    }
+    
+    .tetepage2 {
+        padding-bottom: 20px;
+    }
+
+
+    .filtre {
+        width: 65%;
+        justify-content: space-evenly;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .textbox1 {
+        padding-top: 7px;
+    }
+
+    .Titregras2 {
+        font-size: 20px;
+    }
+
+    .titrefiltre {
+        font-size: 20px;
+        width: 10%;
+    }
+
+    .filtremobile {
+        width: 86%;
+    }
+
+    .boutonfiltre {
+        font-size: 14px;
+        padding: 0px;
+    }
+
+    .couleurfiltre {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .casefiltre {
+        height: 35px;
+    }
+
+    .tetepage {
+        font-size: 20px;
+    }
+
+    .case {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 96%;
+    
+    }
+
+    .principal {
+        width: 100%;
+    }
+    .populaire {
+        width: 100%;
+    }
+
+    .illu1 {
+        justify-content: space-between  ;
+    }
+
+    .box1{
+    
+        min-width: 200px;
+
+
+    }
+    
+
+    .imagebox1 {
+        min-width: 180px;
+        max-height: 110px
+        
+    }
+
+    .textbox1{
+        font-size: 15px;
+    }
+
+    .prix {
+        font-size: 12px;
+    }
+
+    .etoiles {
+        font-size: 10px;
+    }
+
+    .illu3 {
+        gap: 30px;
+        width: 100%;
+    }
+
+    .box3{
+    
+        max-width: 30%;
+        height: 130px;
+
+    }
+    
+    .titrepopulaire {
+        justify-content: space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding-bottom: 10px;
+    }
+
+    .titrepopu {
+        font-size: 25px;
+        padding: 0px;
+        margin-left: 2%;
+        padding-bottom: 30px;
+    }
+
+    .imagebox3 {
+        min-width: 75px;
+        min-height: 120px;
+        
+    }
+
+    .textbox3{
+        font-size: 15px;
+    }
+
+    .illu3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding-bottom: 50px;
+    }
+
+    .activites {
+        width: 100%;
+
+    }
+
+    .imagebox4 {
+        width: 100%;
+        height: 90%;
+    }
+
+    .textbox4 {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+
+    .box4 {
+        width: 23%;
+        max-height: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+
+    header .hautpage .logobooki{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+        padding-top: 20px;
+    }
+
+
+    nav a:hover {
+        border-bottom: solid 2px;
+        color: rgb(52, 157, 255);
+        display: inline-block;
+        border-top: none;
+    }
+
+    .heb {
+        top: 50px;
+        right: 0%;
+        left: 0%;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+    }
+
+    .Titregras2 {
+        display: none;
+    }
+
+    .titrepopulaire {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 5%;
+    }
+
+    .principal  {
+        background-color: rgb(255, 255, 255);
+        border: rgb(255, 255, 255);
+        }
+
+    .case {
+        width: 100%;
+    }
+
+    .hebergement {
+        width: 50%;
+        padding-top: 35px;
+        font-size: 24px;
+    }
+
+    h1 {
+        padding-top: 100px;
+    }
+
+    .tetepage {
+        font-size: 25px;
+    }
+
+    .barrerecherche {
+        width: 100%;
+        margin-right: auto;
+        margin-left: 0px;
+        justify-content: center;        
+    }
+
+    .tetepage {
+        padding-bottom: 4%;
+    }
+
+    .ibleu {
+        padding: 10px;
+    }
+
+    .filtre {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column  ;
+        width: 100%;
+        gap: 5px;
+        margin-left: 0px;
+    }
+
+    .titrefiltre {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 15px;
+        font-size: 24px;
+    }
+
+    .Titregras {
+        padding-bottom: 20px;
+        margin-left: 5%;
+    }
+
+    .titrepopu {
+        padding-bottom: 20px;
+        font-size: 23px;
+    }
+
+    .filtremobile {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5px;
+        column-gap: 4%; 
+        height:90px;
+        justify-content: space-evenly;
+    }
+
+    .Titregras {
+        font-size: 23px;
+    }
+
+    .tetepage {
+        font-size: 22px;
+    }
+
+    .tetepage2 {
+        font-size: 17px;
+    }
+
+    .hebergement {
+        border-bottom: solid gray 2px;
+    }
+
+    .searchbutton {
+        display: none;
+        width: 15%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .loupe {
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        background-color: rgb(0, 102, 255);
+        border-radius: 0px 15px 15px 0px;
+        width: 15%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .searchtext {
+        width: 65%;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+    }
+
+
+    .searchicon {
+        font-size: 20px;
+        width: 15%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-top: 15px;
+    }
+
+    .searchtext {
+        font-size: 20px;
+    }
+
+    .case {
+        flex-direction: column-reverse;
+        margin-left: auto;
+    }
+
+    .populaire {
+       border-radius: 0px;
+       width: 100%;
+    }
+
+    .principal {
+        border-radius: 0px;
+    }
+
+    .casefiltre {
+        width: 46%;
+    }
+
+
+    .filtremobile {
+        gap: 12px;
+    }
+
+    .logoinfo {
+        padding-top: 10px;
+    }
+
+    .boutonfiltre {
+        font-size: 15px;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    .principal {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .box1{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .illu1 {
+        flex-direction: column;
+        gap: 10px;
+        padding-bottom: 120px;
+    }
+
+    .imagebox1 {
+        max-height: 130px;
+        
+    }
+
+    .textbox1 {
+        padding-top: 12px;
+    }
+
+
+    .illu3 {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .imagebox3 {
+        max-width: 200px;
+        min-height: 140px;
+    }
+
+    .titreinfo {
+        font-size: 15px;
+    }
+
+    .box3 {
+        width: 90%;
+        height:170px;
+    }
+
+    .textbox3 {
+        width: 70%;
+    }
+
+    .activites {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        padding-bottom: 130px;
+    }
+
+    .box4 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .imagebox4 {
+        width: 100%;
+        max-height: 150px;
+    }
+
+    .textbox4 {
+        font-size: 20px;
+        
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .container {
+        margin-left: 0px;
+    }
+
+    .box3column {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 70%;
+    }
+}
