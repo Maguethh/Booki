@@ -75,7 +75,7 @@ color: #000000;
 
 footer {
     width: 100%;
-    background-color: lightgrey;
+    background-color: rgb(243, 243, 243);
     display:flex;
     justify-content: space-evenly;
 
@@ -128,8 +128,8 @@ footer ul,
     display: flex;
     flex-direction: column;
     width: 70%;
-    background-color: rgb(238, 238, 238);
-    border: solid rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
+    border: solid rgb(243, 243, 243);
     border-radius: 30px;
     padding: 30px;
 
@@ -158,9 +158,9 @@ footer ul,
 .populaire {
     display: flex;
     width: 30%;
-    border: solid rgb(238, 238, 238);
+    border: solid rgb(243, 243, 243);
     border-radius: 30px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
     justify-content: center;
     align-content: stretch;
     flex-wrap: wrap;
@@ -245,7 +245,7 @@ footer ul,
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 30px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
     box-shadow: 10px 5px 5px #cfcbcb;
 }
 
@@ -847,7 +847,6 @@ li {
     }
 
     .etoiles2 {
-        font-size: 10px;
         padding-top: 40px;
     }
 
@@ -1077,7 +1076,7 @@ li {
     }
 
     .textbox3 {
-        width: 70%;
+        width: 98%;
     }
 
     .activites {
