@@ -748,11 +748,6 @@ li {
         font-size: 10px;
     }
 
-    .etoiles2 {
-        font-size: 10px;
-        padding-top: 40px;
-    }
-
     .illu3 {
         gap: 30px;
         width: 100%;
@@ -849,6 +844,11 @@ li {
         font-size: 15px;
         width: 100%;
         display: flex;
+    }
+
+    .etoiles2 {
+        font-size: 10px;
+        padding-top: 40px;
     }
 
     .Titregras2 {
