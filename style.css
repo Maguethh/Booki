@@ -114,6 +114,7 @@ footer ul,
     padding: 2px;
     box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.65);
     margin: 10px;
+    padding-bottom: 2%;
 
 }
 
@@ -201,7 +202,7 @@ footer ul,
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
-    width: 90%;
+    width: 60%;
 }
 
 
@@ -220,7 +221,7 @@ footer ul,
     font-family: 'Raleway';
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 5%;
 
 }
@@ -236,6 +237,7 @@ footer ul,
     width: 60%  ;
     margin-left: 5%;
     margin-top: 5%;
+    width: 100%;
 
 }
 
@@ -447,7 +449,7 @@ li {
 .boutonfiltre {
     font-family: 'Raleway';
     padding: 15px;
-    background-color: white;
+    background-color: #ffffff00;
     font-size: 20px;
     font-weight: bold;
     overflow: hidden;
@@ -455,11 +457,13 @@ li {
 
 .casefiltre:hover {
     background-color: rgb(164, 206, 255);
+    cursor: pointer;
 }
 
-.boutonfiltre:hover {
-    background-color: rgb(164, 206, 255);
+.boutonfiltre {
+    cursor: pointer ;
 }
+
 
 .titrepopulaire {
     display: flex;
@@ -543,6 +547,10 @@ li {
 
     .imagebox4 {
         width: 100%;
+    }
+
+    .titrepopulaire {
+        padding-top: 30px;
     }
 
 }
@@ -669,6 +677,7 @@ li {
     .tetepage2 {
         padding-bottom: 20px;
     }
+
 
 
     .filtre {
@@ -858,6 +867,10 @@ li {
 
     .etoiles2 {
         padding-top: 40px;
+    }
+
+    .etoiles {
+        padding-bottom: 0%;
     }
 
     .Titregras2 {
@@ -1095,6 +1108,7 @@ li {
         gap: 20px;
         width: 100%;
         padding-bottom: 130px;
+        padding-top: 20px;
     }
 
     .box4 {
@@ -1109,6 +1123,7 @@ li {
 
     .textbox4 {
         font-size: 20px;
+        padding-top: 0px;
         
     }
 
