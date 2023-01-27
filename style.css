@@ -263,7 +263,7 @@ h4{
 .box4 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     border-radius: 30px;
     background-color: rgb(243, 243, 243);
     box-shadow: 10px 5px 5px #cfcbcb;
@@ -583,7 +583,7 @@ li {
 
     .etoiles2 {
         font-size: 12px;
-        padding-top: 30px;
+        padding-top: 35px;
     }
 
     .barrerecherche {
