@@ -216,7 +216,7 @@ h4{
     height: 100%;
     flex-direction: column;
     justify-content: space-around;
-    width: 60%;
+    width: 59%;
 }
 
 
@@ -247,7 +247,7 @@ h4{
     font-family: 'Raleway';
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     width: 60%  ;
     margin-left: 5%;
     margin-top: 5%;
