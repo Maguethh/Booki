@@ -41,7 +41,7 @@ table {
 	border-spacing: 0;
 }   
  
-.container {
+body{
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -101,13 +101,11 @@ footer ul,
 .imagebox1 {
     border-radius: 20px 20px 0px 0px;
     width: 100%;
-    max-height: 140px;
-    height: 80%;
+    height: 130px;
 }
 
 .box1 {
     width: 30%;
-    min-width: 250px;
     background-color: white;
     border: solid white;
     margin-right: 2%;
@@ -116,6 +114,9 @@ footer ul,
     box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.65);
     margin: 10px;
     padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 
 }
 
@@ -149,15 +150,6 @@ h2{
     font-size: 30px;
 }
 
-h3{
-    font-size: 30px;
-    margin-top: 5%;
-}
-
-h4{
-    font-size: 30px;
-    padding-left: 2%;
-}
 
 
 .Titregras2 {
@@ -267,12 +259,14 @@ h4{
     border-radius: 30px;
     background-color: rgb(243, 243, 243);
     box-shadow: 10px 5px 5px #cfcbcb;
+    width: 23%;
 }
 
 .imagebox4 {
     width: 300px;
     height: 460px;
     border-radius: 30px 30px 0px 0px;
+    width: 100%;
     
 }
 
@@ -372,6 +366,7 @@ li {
     display: flex;
     margin-left: 5%;
     padding-bottom: 2%;
+    margin-top: auto;
 }
 
 .etoiles2 {
@@ -541,30 +536,20 @@ li {
     align-items: flex-start;
 }
 
+.titrepopu {
+    padding-top: 2%;
+}
+
+.graf {
+    margin-top: 2%;
+}
+
 .titreinfo {
     font-family: 'Raleway';
     font-size: 20px;
     color: rgb(80, 80, 80);
     padding-top: 6px;
     padding-left: 7px;
-}
-
-@media only screen and (min-width: 993px) and (max-width: 1440px) {
-
-    .logobooki {
-        width: 10%;
-    }
-
-
-    .box4 {
-        width: 23%;
-    }
-
-    .imagebox4 {
-        width: 100%;
-    }
-
-
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px){
@@ -927,6 +912,7 @@ li {
         padding-top: 100px;
     }
 
+
     .tetepage {
         font-size: 25px;
     }
@@ -940,10 +926,6 @@ li {
 
     .tetepage {
         padding-bottom: 4%;
-    }
-
-    .ibleu {
-        padding: 10px;
     }
 
     .filtre {
